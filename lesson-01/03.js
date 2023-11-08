@@ -14,7 +14,8 @@ console.log(**number);
 console.log(number**);
 console.log(**number);
 */
-​let number = 1;
+
+let number = 1;
 
 console.log(number++);
 console.log(++number);
