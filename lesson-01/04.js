@@ -8,6 +8,6 @@ x /= 3;
 */
 
 console.log(8);
-console.log(10);
-console.log(1);
-console.log(5/3);
+console.log(16);
+console.log(12);
+console.log(4);
