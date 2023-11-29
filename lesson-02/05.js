@@ -1,9 +1,15 @@
-const giveMeRightCondition = (value1, value2, maximum) => {
-    if ( value1 === value2 && value1 <=  maximum) {
-        console.log('Success!');
-    } else {
-        console.log('Something wrong!');
-    }
+let passport = {
+    name: "Petr",
+    surname: "Petrov",
+};
+
+let newPassport = {}
+
+for (let key in passport) {
+    newPassport[key] = passport[key];
 }
 
-giveMeRightCondition(80, 90, 200)
+newPassport.name = "Ivan";
+
+console.log(passport.name);
+console.log(newPassport.name);
