@@ -10,7 +10,7 @@ let passportWithAddress = {
 let passportWithAddressClone = {};
 
 for (let key in passportWithAddress) {
-    passportWithAddressClone[key] = passportWithAddress[key]
+    passportWithAddressClone.address[key] = passportWithAddress.address[key]
 }
 
 passportWithAddressClone.address.city = "Bobryisk";
