@@ -7,11 +7,7 @@ let passportWithAddress = {
     }
 };
 
-let passportWithAddressClone = {};
-
-for (let key in passportWithAddress) {
-    passportWithAddressClone.address[key] = passportWithAddress.address[key]
-}
+let passportWithAddressClone = structuredClone(passportWithAddress);
 
 passportWithAddressClone.address.city = "Bobryisk";
 
