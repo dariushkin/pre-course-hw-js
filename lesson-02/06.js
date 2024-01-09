@@ -13,7 +13,7 @@ for (let key in passportWithAddress) {
     passportWithAddressClone[key] = passportWithAddress[key]
 }
 
-passportWithAddressClone.city = "Bobryisk";
+passportWithAddressClone.address.city = "Bobryisk";
 
-console.log(passportWithAddress.city);
-console.log(passportWithAddressClone.city);
+console.log(passportWithAddress.address.city);
+console.log(passportWithAddressClone.address.city);
