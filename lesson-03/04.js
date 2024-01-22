@@ -61,5 +61,4 @@ const users = [
     }
 ];
 
-let result = users.filter((obj) => obj.id%2 === 0)
-console.log(result)
+console.log(users.filter((obj) => obj.id % 2 === 0))
