@@ -36,4 +36,4 @@ let addMaridge = () => { for (let i = 0; i <= users3.length-1; i++) {
 }
 }
 
-addMaridge()
+console.log(addMaridge());
