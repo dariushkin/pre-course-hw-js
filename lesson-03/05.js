@@ -26,4 +26,5 @@ const newObj = {
     address: 'Unknown'
 }
 
-console.log(users2.splice(3, 0, newObj))
+let newUsers = users2.push(newObj);
+console.log(newUsers);
