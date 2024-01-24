@@ -31,9 +31,9 @@ const users3 = [
     },
 ];
 
-let addMaridge = () => { for (let i = 0; i <= users3.length-1; i++) {
+for (let i = 0; i <= users3.length; i++) {
     users3[i].isMarried = true;
-}
+    console.log(users3)
 }
 
-console.log(addMaridge());
+
