@@ -31,12 +31,15 @@ const users3 = [
     },
 ];
 
-let getMarried = () => {
-    for (let i = 0; i <= users3.length; i++) {
-    users3[i].isMarried = true;
-}
+users3[0].getMarried = true
 
-}
+// let getMarried = () => {
+//     for (let i = 0; i <= users3.length; i++) {
+//     users3[i].isMarried = true;
+ 
+// }
+
+// }
 
 
 console.log(users3)
