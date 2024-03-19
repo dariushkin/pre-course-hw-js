@@ -13,3 +13,4 @@ for (let i = 0 ; i < numbers.length; i++ ) {
         return arrayNumber % 2 === 0
     } )
 }
+console.log(numbers)
