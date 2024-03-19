@@ -8,7 +8,7 @@ const numbers = [
 
 for (let i = 0 ; i < numbers.length; i++ ) {
     numbers[i] = numbers[i].filter((arrayNumber) => {
-        return arrayNumber % 2 === 0
+        return arrayNumber % 2 ===! 0
     } )
 }
 console.log(numbers)
