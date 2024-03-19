@@ -5,8 +5,6 @@ const numbers = [
 ];
   
 
-const newNumbers = numbers.filter
-
 
 for (let i = 0 ; i < numbers.length; i++ ) {
     numbers[i] = numbers[i].filter((arrayNumber) => {
