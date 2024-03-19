@@ -41,6 +41,6 @@ let getMarried = () => {
 
 }
 
-
+getMarried()
 console.log(users3)
  
